@@ -5,11 +5,12 @@ gaapkurls is a good tool to extract urls inside an android apk.
 Prerequisites
 
 Install apktool: This tool is used to decompile and recompile APK files.
-sudo apt-get install apktool
+$$$$$ sudo apt-get install apktool $$$$$
 
 Install Python libraries: You'll need beautifulsoup4 and lxml for parsing.
-pip install beautifulsoup4 lxml
+$$$$$ pip install beautifulsoup4 lxml $$$$$
 
+!!!!!!!!!! you need to specify the apk path in the code at the line before the end !!!!!!!!!
 
 Explanation
 1. Decompile the APK: The decompile_apk function uses apktool to decompile the APK into a directory.
